@@ -1,0 +1,22 @@
+{
+  "name": "@collabnote/shared",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^5.1.0",
+    "typescript": "^5.0.0",
+    "vitest": "^5.1.0"
+  },
+  "dependencies": {
+    "es-module-lexer": "^2.3.2"
+  }
+}

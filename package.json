@@ -1,0 +1,30 @@
+{
+  "name": "collabnote",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "npm@11.20.0",
+  "description": "CollabNote — lightweight real-time collaborative text editor",
+  "workspaces": [
+    "apps/web",
+    "apps/server",
+    "packages/shared"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alokprasad573/CRDT-Tutorials.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alokprasad573/CRDT-Tutorials/issues"
+  },
+  "homepage": "https://github.com/alokprasad573/CRDT-Tutorials#readme",
+  "dependencies": {
+    "es-module-lexer": "^3.0.4"
+  }
+}
